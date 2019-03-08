@@ -30,6 +30,13 @@ api.get('/findone/:id', (req, res) => {
   res.send(JSON.stringify(item))
 })
 
+// GET JSON by index.html
+// api.get('/sample', function (req, res,next){
+//   res.sendFile(path.join(__dirname, '../public/sample.html'))
+// })
+
+
+
 // RESPOND WITH VIEWS  --------------------------------------------
 
 // later

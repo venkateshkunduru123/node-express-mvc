@@ -19,6 +19,11 @@ router.get('/', (req, res, next) => {
   res.sendFile(path.join(__dirname, '../public/index.html'))
 })
 
+router.get('/sample', (req, res, next) => {
+  console.log('Request to /sample.html')
+  res.sendFile(path.join(__dirname, '../public/sample.html'))
+})
+
 // Defer path requests to a particular controller
 router.use('/dev', require('../controllers/developer.js'))
 
