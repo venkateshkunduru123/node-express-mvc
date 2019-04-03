@@ -2,8 +2,6 @@
 *  Developer model
 *  Describes the characteristics of each attribute in a developer resource.
 *
-* @author Denise Case <dcase@nwmissouri.edu>
-*
 */
 
 // bring in mongoose 

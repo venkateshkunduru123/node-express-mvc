@@ -2,8 +2,6 @@
 *  Developer controller
 *  Handles requests related to developer resources.
 *
-* @author Denise Case <dcase@nwmissouri.edu>
-*
 */
 const express = require('express')
 const api = express.Router()

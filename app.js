@@ -23,9 +23,13 @@ require('./utils/seeder.js')(app)  // load seed data
 // use '/public to access files in the 'public' folder
 app.use('/public', express.static(path.join(__dirname, 'public')));
 
+
+
 const routing = require('./routes/router.js')
 app.use('/', routing)  // load routing
-
+// app.use('/admin', routing, function (req, res) {
+//   res.sendStatus(404)
+// })
 // app.get("/sample", function (req, res) {
 //   res.render("sample.html")
 // })
